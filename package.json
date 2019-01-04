@@ -36,6 +36,9 @@
     "vows": "^0.8.2",
     "winston": "^3.0.0"
   },
+  "peerDependencies": {
+    "winston": "^3.0.0"
+  },
   "main": "./lib/winston-syslog",
   "scripts": {
     "lint": "populist **/*.js",
